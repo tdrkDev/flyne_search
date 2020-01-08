@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Gå til startsiden</string>
+    <string name="b">Gå opp</string>
+    <string name="c">Flere alternativer</string>
+    <string name="d">Ferdig</string>
+    <string name="e">Se alle</string>
+    <string name="f">Velg en app</string>
+    <string name="g">AV</string>
+    <string name="h">PÅ</string>
+    <string name="i">Søk …</string>
+    <string name="j">Slett søket</string>
+    <string name="k">Søkeord</string>
+    <string name="l">Søk</string>
+    <string name="m">Utfør søket</string>
+    <string name="n">Talesøk</string>
+    <string name="o">Del med</string>
+    <string name="p">Del med %s</string>
+    <string name="q">Skjul</string>
+    <string name="r">Søk</string>
+    <string name="s">999+</string>
+</resources>

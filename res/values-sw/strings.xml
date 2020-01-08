@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Nenda mwanzo</string>
+    <string name="b">Nenda juu</string>
+    <string name="c">Chaguo zaidi</string>
+    <string name="d">Nimemaliza</string>
+    <string name="e">Angalia zote</string>
+    <string name="f">Chagua programu</string>
+    <string name="g">IMEZIMWA</string>
+    <string name="h">IMEWASHWA</string>
+    <string name="i">Tafuta…</string>
+    <string name="j">Futa hoja</string>
+    <string name="k">Hoja ya utafutaji</string>
+    <string name="l">Tafuta</string>
+    <string name="m">Wasilisha hoja</string>
+    <string name="n">Tafuta kwa kutamka</string>
+    <string name="o">Shiriki na:</string>
+    <string name="p">Shiriki ukitumia %s</string>
+    <string name="q">Kunja</string>
+    <string name="r">Tafuta</string>
+    <string name="s">999+</string>
+</resources>

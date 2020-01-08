@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/l2" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fk" android:background="@drawable/gj" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/fk" android:scaleType="center" android:onClick="backClick" android:contentDescription="@null" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="@dimen/a_v" android:textColor="@color/km" android:layout_gravity="center_vertical" android:id="@id/fl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/m0" android:includeFontPadding="false" android:layout_marginStart="8.0dip" style="@style/u3" />
+    </LinearLayout>
+    <View android:id="@id/fm" android:background="@color/ki" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <flyme.support.v7.widget.MzRecyclerView android:id="@id/g7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="@null" common:listSelectors="@color/l0" />
+</LinearLayout>

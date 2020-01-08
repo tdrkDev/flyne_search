@@ -1,0 +1,210 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+table{border-collapse: collapse;border-spacing: 0;}
+fieldset,img{border: 0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;font-weight: normal;}
+ol,ul,li{list-style: none;}
+caption,th{text-align: left;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+q:before,q:after{content: "";}
+abbr,acronym{border: 0;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,p {
+    margin: 0;
+    padding: 0;
+    /*border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a:link{
+    color: #333333;
+    text-decoration:none;
+}
+
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    min-width: 320px;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    display: block;
+}
+/*body {
+    min-height: 100%;
+    height:100%;
+    -webkit-font-smoothing: antialiased;
+    min-width: 320px;
+    font-family: Helvetica Neue,Roboto,"microsoft yahei";
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+}*/
+*{
+       height: auto;
+       box-sizing: border-box;
+}
+.main{
+    margin:0 auto;
+}
+.header_transocde{
+    background-color:#ffffff !important;
+    width:100%;
+    padding: 0 !important;
+}
+.head-container-sdk{
+     padding-right: 0.44rem;
+     padding-bottom: 0.2rem;
+     padding-left: 0.44rem;
+     padding-top: 0.2rem;
+}
+
+.head-no-logo-href{
+    width: auto;
+    height: 0.67rem;
+}
+.head-logo-href{
+    width: auto;
+    height: 1.55rem;
+}
+.head-logo{
+    width: auto;
+    max-height: 0.67rem;
+    margin: auto 0;
+    display: block;
+    vertical-align:baseline;
+    margin-bottom:0.20rem !important;
+    margin-top:0.20rem !important;
+}
+
+.article-title {
+     color: #3b424c;
+     line-height: 1.4 !important;
+     font-size: 0.61rem;
+     text-align: justify;
+}
+.head-container-sdk div {
+    /*margin-top: 0.11rem;
+    color: #999999;
+    line-height: 1;*/
+    line-height: 0.3;
+    padding: 1px;
+}
+.head-container-sdk div span{
+   color: #999999;
+   display: inline-block;
+    margin-top: 0.2rem;
+   font-size: 0.33rem;
+   line-height: 1.1;
+   white-space: nowrap;
+}
+div.head-container-sdk .head-info{
+    float: left;
+    margin-right: 0.33rem;
+}
+
+.public-time{
+  margin-left: .33rem;
+}
+
+.skip-original-open {
+    /*border-bottom: 1px solid;*/
+    float: right;
+}
+
+.main {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    width: 100%;
+    background-color: #ffffff;
+}
+.imgparent img{
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin:auto;
+
+    text-indent: 0;
+    background-color: #EBEBEB;
+    background-size: 100%;
+    text-align:center;
+}
+
+.videoparent video{
+   display: block;
+   width: 100%;
+}
+
+.footer{
+    display: block;
+}
+
+div.i-content p {
+    line-height: 1rem;
+}
+
+main article{
+    padding: 0 0.44rem;
+}
+
+.transcode-container {
+    font-size: 0.47rem;
+    padding:0.67rem 0 0 0;
+    margin-bottom: 0.222rem !important;
+    line-height: 1.825 !important;
+    background: #ffffff;
+    color: #3b424c;
+
+    width:100%;
+    height:auto;
+    clear: both;
+    overflow: hidden;
+    text-align: justify;
+    text-indent: 0em !important;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+    box-sizing:content-box;
+}
+
+.transcode-container p{
+     font-size: 0.47rem  !important;
+     margin-bottom: 0.35rem !important;
+     text-indent: 0em !important;
+     line-height: 1.825 !important;
+     text-align:justify !important;
+}
+
+.transcode-container div{
+     font-size: 0.47rem  !important;
+     margin-bottom: 0.35rem !important;
+     text-indent: 0em !important;
+     line-height: 1.825 !important;
+     text-align:justify !important;
+}
+
+.transcode-container figure{
+   width:100%;
+}
+
+div.i-content p {
+    line-height: 156% !important;
+}

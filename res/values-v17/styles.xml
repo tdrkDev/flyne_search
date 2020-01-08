@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="n" parent="@style/dz">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="o" parent="@android:style/Widget">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="p" parent="@android:style/Widget">
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+    <style name="q" parent="@android:style/Widget">
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="r" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="s" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="t" parent="@android:style/Widget">
+        <item name="android:paddingStart">@dimen/cs</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="u" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="v" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/ez</item>
+    </style>
+    <style name="w" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="x" parent="@style/bt">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="y" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">@dimen/cs</item>
+    </style>
+    <style name="z" parent="@style/o">
+        <item name="android:paddingStart">5.0dip</item>
+        <item name="android:paddingEnd">5.0dip</item>
+    </style>
+    <style name="a0" parent="@android:style/Widget">
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="a1" parent="@style/bi">
+        <item name="android:paddingStart">@dimen/c4</item>
+        <item name="android:paddingEnd">@dimen/c3</item>
+    </style>
+    <style name="a2" parent="@style/yf" />
+    <style name="a3" parent="@style/ye">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="a4" parent="@style/fh">
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="a5" parent="@style/a4">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:layout_marginStart">@dimen/a23</item>
+        <item name="android:layout_marginEnd">7.0dip</item>
+    </style>
+    <style name="a6" parent="@style/a4">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:layout_marginStart">7.0dip</item>
+        <item name="android:layout_marginEnd">@dimen/a23</item>
+    </style>
+    <style name="a7" parent="@style/a4">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="ye" parent="@style/ej">
+        <item name="android:checkedTextViewStyle">@style/d0</item>
+    </style>
+    <style name="yf" parent="@style/ei">
+        <item name="android:listPreferredItemPaddingStart">@dimen/zr</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/zs</item>
+        <item name="android:checkedTextViewStyle">@style/d0</item>
+    </style>
+</resources>

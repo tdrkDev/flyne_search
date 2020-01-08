@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.common.widget.RectClipView android:orientation="vertical" android:id="@id/p8" android:background="@color/l2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n_" android:layout_marginTop="@dimen/n3" android:layout_marginRight="@dimen/n9" android:layout_marginStart="@dimen/n_" android:layout_marginEnd="@dimen/n9">
+        <TextView android:textSize="@dimen/n6" android:textColor="@color/el" android:gravity="center" android:id="@id/p9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="@dimen/n1" android:textColor="@color/ek" android:gravity="center" android:id="@id/p_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/n7" android:textColor="@color/en" android:gravity="center" android:id="@id/pa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/ad" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ne" android:layout_marginStart="@dimen/nd" android:layout_marginEnd="@dimen/nc">
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/dk" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b5" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/dk" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cf" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/dk" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ck" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/dk" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cc" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/dk" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/at" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/dk" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/c5" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/dk" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cb" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v4.view.ViewPager android:id="@id/pb" android:layout_width="fill_parent" android:layout_height="318.0dip" android:layout_marginTop="@dimen/mv" android:layout_marginStart="@dimen/mu" android:layout_marginEnd="@dimen/mu" />
+        </LinearLayout>
+    </ScrollView>
+</com.meizu.common.widget.RectClipView>

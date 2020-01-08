@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/al" android:paddingBottom="@dimen/g9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.net.search.ui.module.widget.RoundImageView android:id="@id/mg" android:layout_width="106.66998dip" android:layout_height="139.32999dip" android:layout_centerHorizontal="true" app:cornerRadius="@dimen/dy" />
+    <ImageView android:id="@id/mh" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lq" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/mi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.669983dip" android:layout_marginBottom="6.169983dip" android:src="@drawable/lp" android:layout_alignLeft="@id/mg" android:layout_alignBottom="@id/mg" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.669983dip" android:layout_marginBottom="4.5999756dip" android:text="239" android:layout_toRightOf="@id/mi" android:layout_alignBottom="@id/mg" />
+</RelativeLayout>

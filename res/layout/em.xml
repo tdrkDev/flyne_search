@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flyme.support.v7.widget.ActionBarOverlayLayout android:id="@id/ev" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/gy" />
+    <flyme.support.v7.widget.ActionBarContainer android:gravity="top" android:id="@id/ew" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:touchscreenBlocksFocus="true" style="?attr/mzActionBarStyleFullScreen">
+        <flyme.support.v7.widget.Toolbar android:id="@id/ex" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationContentDescription="@string/b" style="?attr/mzToolbarStyleFullScreen" />
+        <flyme.support.v7.widget.ActionBarContextView android:theme="?actionBarTheme" android:id="@id/ey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/mzActionModeStyleFullScreen" />
+    </flyme.support.v7.widget.ActionBarContainer>
+    <flyme.support.v7.widget.ActionBarContainer android:gravity="center" android:id="@id/ae" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/actionBarSplitStyle" />
+    <ImageView android:id="@id/r1" android:visibility="invisible" android:layout_width="@dimen/ve" android:layout_height="@dimen/vb" android:layout_marginRight="@dimen/vd" android:layout_marginBottom="@dimen/vc" />
+    <ViewStub android:id="@id/r2" android:layout="@layout/en" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</flyme.support.v7.widget.ActionBarOverlayLayout>

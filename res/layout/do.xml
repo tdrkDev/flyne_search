@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/vx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/vu">
+        <TextView android:textColor="@color/ie" android:id="@id/q2" android:paddingTop="@dimen/vw" android:paddingBottom="@dimen/vt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentStart="true" style="@style/uc" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/h9" android:paddingTop="@dimen/vw" android:paddingBottom="@dimen/vt" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/vv" android:layout_alignParentEnd="true">
+            <TextView android:gravity="center" android:id="@id/q3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/uc" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/q4" android:background="@drawable/hc" android:visibility="visible" android:layout_width="@dimen/vy" android:layout_height="@dimen/w0" android:scaleX="0.98" android:scaleY="0.9" android:layout_marginStart="@dimen/w1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

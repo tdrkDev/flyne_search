@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ce" parent="@style/yv" />
+    <style name="cf" parent="@style/yw" />
+    <style name="yv" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="yw" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

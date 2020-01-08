@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/gx" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/jp" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ko" />
+    <com.meizu.common.widget.Switch android:id="@id/jq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fh" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/abl" android:textColor="@color/aa" android:gravity="center_vertical" android:id="@id/ix" android:paddingLeft="@dimen/fo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" style="@style/l4" />
+    <View android:id="@id/jr" android:background="#ffe5e5e5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/fh" android:layout_marginRight="@dimen/fh" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/cb" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/gl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/gm" android:layout_centerVertical="true" layout="@layout/ah" />
+    <ImageView android:id="@id/gm" android:layout_width="8.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/jm" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/ce" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">হোম এ নেভিগেট করুন</string>
+    <string name="b">উপরের দিকে নেভিগেট করুন</string>
+    <string name="c">আরও বিকল্প</string>
+    <string name="d">সম্পন্ন হয়েছে</string>
+    <string name="e">সবগুলো দেখুন</string>
+    <string name="f">একটি অ্যাপ্লিকেশান বেছে নিন</string>
+    <string name="g">বন্ধ</string>
+    <string name="h">চালু</string>
+    <string name="i">অনুসন্ধান...</string>
+    <string name="j">ক্যোয়ারী সাফ করুন</string>
+    <string name="k">ক্যোয়ারী খুঁজুন</string>
+    <string name="l">খুঁজুন</string>
+    <string name="m">ক্যোয়ারী জমা দিন</string>
+    <string name="n">ভয়েস অনুসন্ধান</string>
+    <string name="o">এর সাথে শেয়ার করুন</string>
+    <string name="p">%s এর সাথে শেয়ার করুন</string>
+    <string name="q">সঙ্কুচিত করুন</string>
+    <string name="r">খুঁজুন</string>
+    <string name="s">৯৯৯+</string>
+</resources>

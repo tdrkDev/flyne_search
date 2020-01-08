@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Үйгө багыттоо</string>
+    <string name="b">Жогору</string>
+    <string name="c">Көбүрөөк мүмкүнчүлүктөр</string>
+    <string name="d">Даяр</string>
+    <string name="e">Бардыгын көрүү</string>
+    <string name="f">Колдонмо тандоо</string>
+    <string name="g">ӨЧҮК</string>
+    <string name="h">КҮЙҮК</string>
+    <string name="i">Издөө…</string>
+    <string name="j">Талаптарды тазалоо</string>
+    <string name="k">Издөө талаптары</string>
+    <string name="l">Издөө</string>
+    <string name="m">Талап жөнөтүү</string>
+    <string name="n">Үн аркылуу издөө</string>
+    <string name="o">Бөлүшүү</string>
+    <string name="p">%s аркылуу бөлүшүү</string>
+    <string name="q">Жыйнап коюу</string>
+    <string name="r">Издөө</string>
+    <string name="s">999+</string>
+</resources>

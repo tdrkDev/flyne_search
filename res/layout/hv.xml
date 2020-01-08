@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/y" style="@style/gh"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/a4" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/v" app:layout_constraintTop_toTopOf="b3" layout="@layout/hp" />
+    <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/v" android:layout_width="0.0dip" android:layout_marginTop="@dimen/a7g" android:scaleType="centerCrop" app:layout_constraintEnd_toStartOf="@id/w" app:layout_constraintHorizontal_chainStyle="b8" app:layout_constraintStart_toStartOf="b3" app:layout_constraintTop_toBottomOf="@id/a4" app:corner_radius="@dimen/a7d" style="@style/gf" />
+    <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/w" android:layout_width="0.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/v" app:layout_constraintEnd_toStartOf="@id/x" app:layout_constraintStart_toEndOf="@id/v" app:layout_constraintTop_toTopOf="@id/v" app:corner_radius="@dimen/a7d" style="@style/gf" />
+    <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/x" android:layout_width="0.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/v" app:layout_constraintEnd_toEndOf="b3" app:layout_constraintStart_toEndOf="@id/w" app:layout_constraintTop_toTopOf="@id/v" app:corner_radius="@dimen/a7d" style="@style/gf" />
+    <include android:id="@id/z" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a7g" app:layout_constraintBottom_toBottomOf="b3" app:layout_constraintTop_toBottomOf="@id/v" layout="@layout/ho" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/al" android:paddingLeft="@dimen/a80" android:paddingTop="@dimen/a81" android:paddingRight="@dimen/a80" android:paddingBottom="@dimen/a81" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/abl" android:textColor="@color/b4" android:ellipsize="end" android:id="@id/a4" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="3.0dip" style="@style/l4" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lp" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a4">
+        <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/v" android:layout_width="@dimen/a84" android:layout_height="@dimen/a83" android:layout_weight="1.0" app:corner_radius="@dimen/a7z" />
+        <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/w" android:layout_width="@dimen/a84" android:layout_height="@dimen/a83" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:layout_weight="1.0" app:corner_radius="@dimen/a7z" />
+        <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/x" android:layout_width="@dimen/a84" android:layout_height="@dimen/a83" android:layout_weight="1.0" app:corner_radius="@dimen/a7z" />
+    </LinearLayout>
+    <com.meizu.common.widget.LabelTextView android:id="@id/a1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g_" android:layout_below="@id/lp" style="@style/x1" />
+    <TextView android:textSize="@dimen/abi" android:textColor="@color/ib" android:ellipsize="end" android:id="@id/a0" android:paddingRight="@dimen/gc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/a1" android:layout_below="@id/lp" />
+    <TextView android:textSize="@dimen/abi" android:textColor="@color/ib" android:ellipsize="end" android:id="@id/a3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/a0" android:layout_below="@id/lp" />
+    <android.support.v7.widget.AppCompatImageView android:id="@id/u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fx" android:layout_below="@id/lp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

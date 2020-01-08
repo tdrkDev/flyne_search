@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/y" style="@style/gh"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/a4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/hp" />
+    <RelativeLayout android:id="@id/uq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a7g" android:layout_marginBottom="@dimen/a7g" android:layout_below="@id/a4">
+        <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/v" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:corner_radius="@dimen/a7n" style="@style/gg" />
+        <View android:background="@drawable/ai" android:layout_width="fill_parent" android:layout_height="@dimen/a6q" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/a7o" android:textColor="@color/j_" android:id="@id/un" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="00:01" android:maxLines="1" android:includeFontPadding="false" android:layout_alignBottom="@id/v" android:fontFamily="sans-serif-medium" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+        <android.support.v7.widget.AppCompatImageView android:id="@id/uo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:src="@drawable/a6n" android:layout_alignBottom="@id/v" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/un" />
+        <android.support.v7.widget.AppCompatImageView android:id="@id/ur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a6o" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <include android:id="@id/z" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/uq" layout="@layout/ho" />
+</RelativeLayout>

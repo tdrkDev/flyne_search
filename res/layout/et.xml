@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.share.widget.NestedScrollingLayout android:id="@id/r6" android:paddingBottom="@dimen/e" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/r7" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="21.0dip" android:layout_width="@dimen/eb" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/r8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/e7" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="12.0sp" android:textColor="#73000000" android:gravity="center" android:id="@id/r9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="true" android:includeFontPadding="false" />
+        <CheckBox android:textSize="14.0sp" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/r_" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/e6" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="8.0dip" style="@style/vs" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/ra" android:layout_width="@dimen/eb" android:layout_height="wrap_content">
+        <View android:id="@id/rb" android:background="#0d000000" android:visibility="gone" android:layout_width="@dimen/eb" android:layout_height="2.0px" />
+    </FrameLayout>
+    <com.meizu.share.widget.RectClipView android:layout_width="@dimen/eb" android:layout_height="wrap_content" app:layout_listView="true">
+        <flyme.support.v7.widget.RecyclerView android:id="@id/rc" android:layout_width="@dimen/eb" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.meizu.share.widget.RectClipView>
+    <FrameLayout android:id="@id/rd" android:layout_width="@dimen/eb" android:layout_height="2.0px" android:layout_marginBottom="@dimen/e7" app:layout_alignParentBottom="true">
+        <View android:id="@id/re" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <Button android:textSize="16.0sp" android:gravity="center" android:id="@id/rf" android:layout_width="@dimen/eb" android:layout_height="@dimen/e7" android:text="@string/a0" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" android:stateListAnimator="@null" app:layout_alignParentBottom="true" />
+</com.meizu.share.widget.NestedScrollingLayout>

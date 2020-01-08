@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fe" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ff" layout="@layout/j_" />
+    <com.meizu.net.search.ui.module.webview.CardWebView android:id="@id/fg" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff" android:overScrollMode="never" style="?android:attr/webViewStyle" />
+    <com.meizu.common.widget.EmptyView android:id="@id/fh" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff" android:layout_centerInParent="true" common:mcTopMarginOfTips="12.0dip" common:mcSrcOfImage="@drawable/s4" common:mcTitle="@string/he" common:mcTitleTextAppearance="@style/kz" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Navigeer tuis</string>
+    <string name="b">Navigeer op</string>
+    <string name="c">Nog opsies</string>
+    <string name="d">Klaar</string>
+    <string name="e">Sien alles</string>
+    <string name="f">"Kies 'n program"</string>
+    <string name="g">AF</string>
+    <string name="h">AAN</string>
+    <string name="i">Soek …</string>
+    <string name="j">Vee navraag uit</string>
+    <string name="k">Soeknavraag</string>
+    <string name="l">Soek</string>
+    <string name="m">Dien navraag in</string>
+    <string name="n">Stemsoektog</string>
+    <string name="o">Deel met</string>
+    <string name="p">Deel met %s</string>
+    <string name="q">Vou in</string>
+    <string name="r">Soek</string>
+    <string name="s">999+</string>
+</resources>

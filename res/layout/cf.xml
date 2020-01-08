@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/io" android:background="@color/bh" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/fh" android:layout_marginRight="@dimen/fh" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mv" android:background="@drawable/al" android:paddingTop="@dimen/aaw" android:paddingBottom="@dimen/aau" android:layout_width="fill_parent" android:layout_height="@dimen/aar">
+        <ImageView android:id="@id/mw" android:layout_width="@dimen/aax" android:layout_height="@dimen/aav" android:layout_marginStart="@dimen/ab1" android:layout_marginEnd="@dimen/ab2" />
+        <TextView android:textSize="@dimen/abl" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/l4" />
+    </LinearLayout>
+    <flyme.support.v7.widget.MzRecyclerView android:id="@id/my" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

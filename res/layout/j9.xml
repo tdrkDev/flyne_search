@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/xw" android:layout_width="@dimen/abu" android:layout_height="@dimen/abs" android:layout_marginTop="@dimen/abt" />
+    <TextView android:textSize="@dimen/a8u" android:ellipsize="end" android:gravity="center" android:id="@id/xx" android:layout_width="@dimen/abu" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abw" android:maxEms="6" android:singleLine="true" android:includeFontPadding="false" style="@style/u3" />
+    <com.meizu.common.widget.MzRatingBar android:layout_gravity="center" android:id="@id/xy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/abv" android:numStars="5" android:isIndicator="false" android:layout_centerHorizontal="true" style="@style/xd" />
+</LinearLayout>

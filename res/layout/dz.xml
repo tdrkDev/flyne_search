@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/x_"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/oq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ue" android:scaleType="fitXY" />
+    <FrameLayout android:id="@id/ob" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/as" android:paddingEnd="@dimen/oa">
+        <FrameLayout android:layout_gravity="start" android:id="@id/or" android:layout_width="fill_parent" android:layout_height="@dimen/al">
+            <com.meizu.common.widget.ScrollTextView android:layout_gravity="center" android:id="@id/os" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/au" android:textColor="@color/er" android:gravity="end|center" android:layout_gravity="end" android:id="@id/ou" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/ai" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

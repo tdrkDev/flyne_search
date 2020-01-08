@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/to" android:paddingTop="@dimen/a7r" android:paddingBottom="@dimen/a7r" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="b3" app:layout_constraintStart_toStartOf="b3">
+        <com.meizu.common.widget.LoadingView android:id="@id/tp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/x9" />
+        <TextView android:id="@id/tq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/od" android:layout_centerHorizontal="true" style="@style/g6" />
+    </RelativeLayout>
+    <com.meizu.flyme.media.news.widget.NewsRecyclerView android:id="@id/tr" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="b3" app:layout_constraintStart_toStartOf="b3" />
+    <ImageView android:id="@id/ts" android:background="@color/j4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" app:layout_constraintBottom_toTopOf="@id/tt" app:layout_constraintEnd_toEndOf="b3" app:layout_constraintStart_toStartOf="b3" app:layout_constraintTop_toBottomOf="@id/tr" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a6r" app:layout_constraintBottom_toBottomOf="b3" app:layout_constraintEnd_toEndOf="b3" app:layout_constraintStart_toStartOf="b3" app:layout_constraintTop_toBottomOf="@id/ts">
+        <TextView android:id="@id/tu" android:text="@string/o6" style="@style/ge" />
+        <ImageView android:layout_gravity="center" android:id="@id/tv" android:background="@color/j4" android:layout_width="2.0px" android:layout_height="24.0dip" />
+        <TextView android:id="@id/tw" android:text="@string/oe" style="@style/ge" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

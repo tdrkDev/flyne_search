@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ls">
+        <com.meizu.net.search.ui.module.widget.DragPreference android:layout="@layout/co" android:key="key_home_card_2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/m4" android:key="key_use_preference_category">
+        <PreferenceScreen android:title="@string/lh" android:key="key_search_setting">
+            <intent android:targetPackage="com.meizu.net.search" android:targetClass="com.meizu.net.search.ui.module.activities.SubPreferenceActivity" />
+        </PreferenceScreen>
+        <com.meizu.net.search.ui.module.widget.EngineListPreference android:title="@string/ji" android:key="key_search_engine" android:defaultValue="0" />
+        <com.meizu.common.preference.SwitchPreference android:title="@string/k8" android:key="key_switch_deskicon" android:defaultValue="false" />
+        <com.meizu.common.preference.SwitchPreference android:title="@string/hl" android:key="key_switch_hotword" android:defaultValue="true" />
+        <com.meizu.common.preference.SwitchPreference android:title="@string/l3" android:key="key_switch_push" android:defaultValue="true" />
+        <ListPreference android:entries="@array/q" android:title="@string/jk" android:key="key_launcher_slide_up" android:defaultValue="0" android:entryValues="@array/r" />
+    </PreferenceCategory>
+</PreferenceScreen>

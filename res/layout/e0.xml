@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/x_"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/oq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ue" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ob" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/as" android:paddingEnd="@dimen/oa">
+        <FrameLayout android:id="@id/or" android:layout_width="@dimen/aj" android:layout_height="@dimen/al" android:layout_weight="1.0">
+            <com.meizu.common.widget.ScrollTextView android:layout_gravity="end" android:id="@id/os" android:layout_width="111.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/au" android:textColor="@color/er" android:gravity="center" android:layout_gravity="end" android:id="@id/ou" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginEnd="15.0dip" />
+        </FrameLayout>
+        <ImageView android:id="@id/ov" android:visibility="gone" android:layout_width="0.0px" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/ow" android:layout_width="@dimen/aj" android:layout_height="@dimen/al" android:layout_weight="1.0">
+            <com.meizu.common.widget.ScrollTextView android:id="@id/ox" android:layout_width="75.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/au" android:textColor="@color/er" android:gravity="center" android:id="@id/oy" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginStart="60.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

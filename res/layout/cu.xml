@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.common.widget.LoadingView android:id="@id/i0" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/x9" />
+    <TextView android:textColor="#88000000" android:id="@id/i1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j9" android:text="@string/hm" style="@style/g6" />
+</LinearLayout>

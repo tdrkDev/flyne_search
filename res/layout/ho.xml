@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/z" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.common.widget.LabelTextView android:id="@id/a1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/a7g" style="@style/x1" />
+    <TextView android:id="@id/a0" android:layout_centerVertical="true" android:layout_toEndOf="@id/a1" style="@style/gi" />
+    <TextView android:id="@id/a3" android:layout_centerVertical="true" android:layout_toEndOf="@id/a0" style="@style/gi" />
+    <TextView android:id="@id/a2" android:layout_centerVertical="true" android:layout_toEndOf="@id/a3" style="@style/gi" />
+    <android.support.v7.widget.AppCompatImageView android:id="@id/u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fx" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

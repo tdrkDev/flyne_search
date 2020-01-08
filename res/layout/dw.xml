@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="end" android:layout_gravity="end|center" android:id="@id/ql" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/pm" android:paddingEnd="@dimen/pn"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/qm" android:background="?mzActionBarSearchViewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:gravity="right" android:layout_gravity="right" android:background="@null" android:layout_width="@dimen/mp" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/e6" />
+</RelativeLayout>

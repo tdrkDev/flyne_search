@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <flyme.support.v7.widget.MzRecyclerView android:scrollbarSize="3.0dip" android:scrollbarThumbVertical="@color/hq" android:id="@id/g7" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.inveno.basics.ui.RefreshHintView android:id="@id/s6" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.inveno.basics.ui.NoNetWorkView android:id="@id/s7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

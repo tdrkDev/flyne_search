@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/hm" />
+    <item android:state_checked="false" android:id="@id/za" android:drawable="@drawable/hg" />
+    <item android:state_checked="true" android:id="@id/zb" android:drawable="@drawable/hk" />
+    <transition android:drawable="@drawable/hi" android:toId="@id/zb" android:fromId="@id/za" />
+    <transition android:drawable="@drawable/ho" android:toId="@id/za" android:fromId="@id/zb" />
+</animated-selector>

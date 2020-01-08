@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:gravity="center_vertical" android:id="@id/wj" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/wp" android:background="@drawable/g6" android:paddingRight="@dimen/g7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="b3" app:layout_constraintEnd_toEndOf="b3" app:layout_constraintStart_toStartOf="b3" app:layout_constraintTop_toTopOf="b3">
+        <TextView android:textSize="14.0sp" android:textColor="@color/a_" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/wq" android:paddingLeft="@dimen/fb" android:paddingTop="@dimen/gd" android:paddingRight="@dimen/gb" android:paddingBottom="@dimen/gd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:maxEms="8" android:scrollHorizontally="true" android:includeFontPadding="false" style="@style/l4" />
+        <View android:layout_gravity="center_vertical" android:id="@id/gd" android:background="@color/a7" android:layout_width="0.70000005dip" android:layout_height="@dimen/fd" />
+        <com.meizu.net.search.ui.module.widget.ClickStatusImageView android:layout_gravity="center_vertical" android:id="@id/wr" android:padding="7.0dip" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/km" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

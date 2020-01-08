@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:meizu="http://schemas.android.com/apk/res-auto">
+    <com.meizu.common.widget.InstallProgressBar android:orientation="horizontal" android:id="@id/pu" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.meizu.common.widget.InstallProgressBarText android:id="@id/pv" android:layout_width="fill_parent" android:layout_height="wrap_content" meizu:mcProgressTextSize="@dimen/a8g" meizu:mcTextOriginColor="@color/l2" meizu:mcTextChangeColor="@color/k1" meizu:mcTextProgress="0.0" />
+        <TextView android:textSize="@dimen/a8f" android:textColor="#7fffffff" android:gravity="center" android:id="@id/pw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/gc" android:paddingBottom="@dimen/gc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/iy" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/g1">
+        <TextView android:textSize="@dimen/abi" android:textColor="@color/kq" android:gravity="center_vertical" android:id="@id/ix" android:paddingLeft="@dimen/gi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="标题" android:includeFontPadding="true" style="@style/ua" />
+        <ImageView android:id="@id/j0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/k9" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.meizu.net.search.ui.module.widget.ClickTextview android:textSize="12.0sp" android:textColor="@color/k_" android:gravity="center" android:id="@id/j1" android:background="@drawable/gj" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="标题" android:drawablePadding="4.0dip" style="@style/ua" />
+    </LinearLayout>
+    <com.meizu.net.search.ui.module.widget.cardview.CardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#bfffffff" app:cardCornerRadius="@dimen/gf" app:cardElevation="0.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.meizu.net.search.ui.module.webview.CardWebView android:id="@id/ne" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/webViewStyle" />
+    </com.meizu.net.search.ui.module.widget.cardview.CardView>
+</LinearLayout>

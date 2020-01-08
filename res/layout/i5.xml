@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ux" android:layout_width="fill_parent" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/a89" android:layout_height="@dimen/a88" layout="@layout/ji" />
+    <include android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/i3" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/v0" android:paddingTop="@dimen/by" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a88" android:minHeight="@dimen/a88" android:layout_toLeftOf="@id/uw" android:layout_marginStart="@dimen/a88" android:layout_toStartOf="@id/uw">
+        <FrameLayout android:id="@id/v1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bx" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/bx" android:layout_marginEnd="8.0dip" />
+        <FrameLayout android:id="@id/v2" android:paddingTop="@dimen/bv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip">
+            <DateTimeView android:textAppearance="@style/co" android:layout_gravity="end|center|top" android:id="@id/v3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <Chronometer android:textAppearance="@style/co" android:layout_gravity="end|center|top" android:id="@id/v4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/cl" android:layout_gravity="end|bottom|center" android:id="@id/v5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/uy" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentBottom="true" android:layoutDirection="ltr" />
+    <ImageView android:id="@id/uz" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/uy" />
+</RelativeLayout>

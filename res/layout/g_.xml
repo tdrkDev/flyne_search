@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.common.widget.SmoothCornerView android:layout_width="wrap_content" android:layout_height="wrap_content" app:mzCornerRadius="@dimen/k0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/gl" android:padding="@dimen/ut" android:layout_width="@dimen/ux" android:layout_height="wrap_content" android:minHeight="@dimen/uu">
+        <ImageView android:id="@id/qx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/uv" android:src="@drawable/o7" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/qy" android:layout_width="@dimen/uw" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" android:fontFamily="sans-serif-medium" android:textAlignment="viewStart" />
+    </LinearLayout>
+</com.meizu.common.widget.SmoothCornerView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.common.recall.InstallView android:id="@id/u0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:animateLayoutChanges="true" app:mcInstallingText="正在加载" app:mcInstallButtonTextComplete="打开" app:mcInstallButtonTextIdle="安装" app:mcAppTitle="新闻资讯" app:mcAppDesc="用客户端打开,体验更佳" app:mcDefaultIcon="@drawable/a6g" app:mcAppPackageName="com.meizu.media.reader" />
+    <com.meizu.flyme.media.news.widget.NewsWebFrameLayout android:id="@id/u1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/u0" android:layout_alignParentTop="true" app:newsLoadingView="@layout/hh" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/al" android:paddingRight="@dimen/fd" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:paddingLeft="@dimen/fd" android:paddingRight="@dimen/fm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ko" android:layout_weight="1.0" />
+    <ImageView android:id="@id/jt" android:visibility="gone" android:layout_width="@dimen/fm" android:layout_height="@dimen/fm" android:layout_marginLeft="@dimen/ga" />
+    <ImageView android:id="@id/ju" android:visibility="gone" android:layout_width="@dimen/fm" android:layout_height="@dimen/fm" android:layout_marginLeft="@dimen/ga" />
+    <ImageView android:id="@id/jv" android:visibility="gone" android:layout_width="@dimen/fm" android:layout_height="@dimen/fm" android:layout_marginLeft="@dimen/ga" />
+    <ImageView android:id="@id/jw" android:visibility="gone" android:layout_width="@dimen/fm" android:layout_height="@dimen/fm" android:layout_marginLeft="@dimen/ga" />
+    <ImageView android:id="@id/jx" android:visibility="gone" android:layout_width="@dimen/fm" android:layout_height="@dimen/fm" android:layout_marginLeft="@dimen/ga" />
+    <TextView android:textColor="#ff4c4c4c" android:id="@id/jy" android:paddingLeft="@dimen/ga" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="..." />
+    <ImageView android:id="@id/jz" android:visibility="gone" android:layout_width="@dimen/fm" android:layout_height="@dimen/fm" android:layout_marginLeft="@dimen/ga" />
+</LinearLayout>

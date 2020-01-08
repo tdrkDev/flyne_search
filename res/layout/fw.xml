@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sk" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.common.widget.SmoothCornerView android:layout_gravity="bottom" android:id="@id/sl" android:background="@drawable/ol" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tt" android:layout_marginRight="@dimen/tu" android:layout_centerHorizontal="true" app:mzCornerRadius="@dimen/tx" />
+    <com.meizu.common.widget.SmoothCornerView android:id="@id/sm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/u2" app:mzCornerRadius="@dimen/tx">
+        <FrameLayout android:id="@id/sn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_gravity="bottom" android:id="@id/so" android:background="@drawable/ok" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/u0" />
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/sp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.meizu.common.widget.SmoothCornerView>
+</FrameLayout>

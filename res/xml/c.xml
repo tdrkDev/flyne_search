@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.common.preference.SwitchPreference android:title="@string/l1" android:key="key_switch_picked" android:summary="@string/l0" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/lo" android:key="key_switch_app_download" android:summary="@string/ln" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/gi" android:key="key_switch_app" android:summary="@string/lp" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/l5" android:key="key_switch_quickapp" android:summary="@string/lu" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/lm" android:key="key_switch_shortcut_fun" android:summary="@string/lw" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/ha" android:key="key_switch_contact" android:summary="@string/lq" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/hr" android:key="key_switch_message" android:summary="@string/lt" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/iu" android:key="key_switch_option" android:summary="@string/lv" android:defaultValue="true" />
+    <com.meizu.common.preference.SwitchPreference android:title="@string/hg" android:key="key_switch_filemanager" android:summary="@string/lr" android:defaultValue="true" />
+</PreferenceScreen>

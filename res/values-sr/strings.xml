@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Одлазак на Почетну</string>
+    <string name="b">Кретање нагоре</string>
+    <string name="c">Још опција</string>
+    <string name="d">Готово</string>
+    <string name="e">Прикажи све</string>
+    <string name="f">Избор апликације</string>
+    <string name="g">ИСКЉУЧИ</string>
+    <string name="h">УКЉУЧИ</string>
+    <string name="i">Претражите...</string>
+    <string name="j">Брисање упита</string>
+    <string name="k">Упит за претрагу</string>
+    <string name="l">Претрага</string>
+    <string name="m">Слање упита</string>
+    <string name="n">Гласовна претрага</string>
+    <string name="o">Дели са</string>
+    <string name="p">Дељење са апликацијом %s</string>
+    <string name="q">Скупи</string>
+    <string name="r">Претражи</string>
+    <string name="s">>999</string>
+</resources>

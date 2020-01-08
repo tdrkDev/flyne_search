@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">"Revenir à l'accueil"</string>
+    <string name="b">Revenir en haut de la page</string>
+    <string name="c">"Plus d'options"</string>
+    <string name="d">Terminé</string>
+    <string name="e">Voir toutes les chaînes</string>
+    <string name="f">Sélectionnez une application</string>
+    <string name="g">DÉSACTIVÉ</string>
+    <string name="h">ACTIVÉ</string>
+    <string name="i">Recherche en cours...</string>
+    <string name="j">Effacer la requête</string>
+    <string name="k">Requête de recherche</string>
+    <string name="l">Rechercher</string>
+    <string name="m">Envoyer la requête</string>
+    <string name="n">Recherche vocale</string>
+    <string name="o">Partager</string>
+    <string name="p">Partager avec %s</string>
+    <string name="q">Réduire</string>
+    <string name="r">Rechercher</string>
+    <string name="s">>999</string>
+</resources>

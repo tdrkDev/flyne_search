@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">پیمایش به صفحه اصلی</string>
+    <string name="b">پیمایش به بالا</string>
+    <string name="c">گزینه‌های بیشتر</string>
+    <string name="d">تمام</string>
+    <string name="e">مشاهده همه</string>
+    <string name="f">انتخاب برنامه</string>
+    <string name="g">خاموش</string>
+    <string name="h">روشن</string>
+    <string name="i">جستجو…</string>
+    <string name="j">پاک کردن عبارت جستجو</string>
+    <string name="k">عبارت جستجو</string>
+    <string name="l">جستجو</string>
+    <string name="m">ارسال عبارت جستجو</string>
+    <string name="n">جستجوی گفتاری</string>
+    <string name="o">اشتراک‌گذاری با</string>
+    <string name="p">اشتراک‌گذاری با %s</string>
+    <string name="q">کوچک کردن</string>
+    <string name="r">جستجو</string>
+    <string name="s">۹۹۹+</string>
+</resources>

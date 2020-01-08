@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:id="@id/qp" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/zn"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/zp" android:textColor="@color/hb" android:gravity="center_vertical" android:id="@id/qq" android:paddingBottom="@dimen/a34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/a38" android:paddingStart="@dimen/zo" android:paddingEnd="?android:listPreferredItemPaddingEnd" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/zp" android:textColor="@color/hb" android:gravity="center_vertical" android:id="@id/qr" android:paddingBottom="@dimen/a34" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/a38" android:paddingStart="@dimen/zo" android:paddingEnd="?android:listPreferredItemPaddingEnd" android:layout_alignParentEnd="true" />
+    <ImageView android:gravity="bottom" android:id="@android:id/background" android:background="@drawable/q8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/v4" android:layout_alignParentBottom="true" />
+</RelativeLayout>

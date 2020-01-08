@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/fa" android:scrollbars="vertical" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@null" android:divider="?listDividerAlertDialog" android:overScrollMode="ifContentScrolls" android:textAlignment="viewStart" app:paddingBottomNoButtons="@dimen/ck" app:paddingTopNoTitle="@dimen/cl" style="@style/og" class="android.support.v7.app.AlertController$RecycleListView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

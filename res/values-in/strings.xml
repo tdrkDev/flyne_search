@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Navigasi ke beranda</string>
+    <string name="b">Navigasi naik</string>
+    <string name="c">Opsi lain</string>
+    <string name="d">Selesai</string>
+    <string name="e">Lihat semua</string>
+    <string name="f">Pilih aplikasi</string>
+    <string name="g">NONAKTIF</string>
+    <string name="h">AKTIF</string>
+    <string name="i">Telusuri...</string>
+    <string name="j">Hapus kueri</string>
+    <string name="k">Kueri penelusuran</string>
+    <string name="l">Telusuri</string>
+    <string name="m">Kirim kueri</string>
+    <string name="n">Penelusuran suara</string>
+    <string name="o">Bagikan dengan</string>
+    <string name="p">Bagikan ke %s</string>
+    <string name="q">Ciutkan</string>
+    <string name="r">Telusuri</string>
+    <string name="s">999+</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/nv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/pc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <com.meizu.common.widget.LimitedWHLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/pc" android:layout_centerHorizontal="true">
+            <TextView android:textAppearance="@style/kx" android:gravity="center" android:id="@id/pe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/l9" />
+            <TextView android:textAppearance="@style/kv" android:gravity="center" android:id="@id/pf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lf" android:layout_marginBottom="@dimen/l7" android:includeFontPadding="false" />
+            <View android:id="@id/pg" android:background="@drawable/q2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="@dimen/lc" android:layout_marginBottom="@dimen/lb" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/la" android:layout_marginEnd="@dimen/le" />
+        </com.meizu.common.widget.LimitedWHLinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

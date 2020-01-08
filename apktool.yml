@@ -1,0 +1,57 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Search.apk
+compressionType: false
+doNotCompress:
+- META-INF/android.arch.core_runtime.version
+- META-INF/android.arch.lifecycle_livedata-core.version
+- META-INF/android.arch.lifecycle_runtime.version
+- META-INF/android.arch.lifecycle_viewmodel.version
+- META-INF/android.arch.persistence.room_runtime.version
+- META-INF/android.arch.persistence_db-framework.version
+- META-INF/android.arch.persistence_db.version
+- META-INF/com.android.support_animated-vector-drawable.version
+- META-INF/com.android.support_appcompat-v7.version
+- META-INF/com.android.support_cardview-v7.version
+- META-INF/com.android.support_design.version
+- META-INF/com.android.support_exifinterface.version
+- META-INF/com.android.support_palette-v7.version
+- META-INF/com.android.support_recyclerview-v7.version
+- META-INF/com.android.support_support-compat.version
+- META-INF/com.android.support_support-core-ui.version
+- META-INF/com.android.support_support-core-utils.version
+- META-INF/com.android.support_support-fragment.version
+- META-INF/com.android.support_support-media-compat.version
+- META-INF/com.android.support_support-v4.version
+- META-INF/com.android.support_support-vector-drawable.version
+- META-INF/com.android.support_transition.version
+- png
+- lib/armeabi/libblur.so
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '23'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  zhs2zht.properties: '8'
+  zht2zhs.properties: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  data/simp_to_trad_characters.txt: '8'
+  data/simp_to_trad_phrases.txt: '8'
+  data/trad_to_simp_characters.txt: '8'
+  data/trad_to_simp_phrases.txt: '8'
+  pinyindb/pinyin_gwoyeu_mapping.xml: '8'
+  pinyindb/pinyin_mapping.xml: '8'
+  pinyindb/unicode_to_hanyu_pinyin.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '8003000'
+  versionName: 8.3.0

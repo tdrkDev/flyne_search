@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">హోమ్‌కు నావిగేట్ చేయండి</string>
+    <string name="b">పైకి నావిగేట్ చేయండి</string>
+    <string name="c">మరిన్ని ఎంపికలు</string>
+    <string name="d">పూర్తయింది</string>
+    <string name="e">అన్నీ చూడండి</string>
+    <string name="f">అనువర్తనాన్ని ఎంచుకోండి</string>
+    <string name="g">ఆఫ్ చేయి</string>
+    <string name="h">ఆన్ చేయి</string>
+    <string name="i">వెతుకు...</string>
+    <string name="j">ప్రశ్నను క్లియర్ చేయి</string>
+    <string name="k">ప్రశ్న శోధించండి</string>
+    <string name="l">వెతుకు</string>
+    <string name="m">ప్రశ్నని సమర్పించు</string>
+    <string name="n">వాయిస్ శోధన</string>
+    <string name="o">వీరితో భాగస్వామ్యం చేయి</string>
+    <string name="p">%sతో భాగస్వామ్యం చేయండి</string>
+    <string name="q">కుదించండి</string>
+    <string name="r">వెతుకు</string>
+    <string name="s">999+</string>
+</resources>

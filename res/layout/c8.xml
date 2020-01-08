@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/al" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/io" android:background="@color/bh" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <ImageView android:id="@id/lu" android:layout_width="70.0dip" android:layout_height="100.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="12.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/gg" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="18.0dip" android:layout_toRightOf="@id/lu">
+        <TextView android:textSize="@dimen/abk" android:ellipsize="end" android:id="@id/lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="哈哈哈" android:maxLines="1" style="@style/l4" />
+        <TextView android:textSize="@dimen/abi" android:textColor="@color/ie" android:ellipsize="end" android:id="@id/m9" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="哈哈哈" android:maxLines="1" />
+        <TextView android:textSize="@dimen/abi" android:textColor="@color/ie" android:ellipsize="end" android:id="@id/lw" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="哈哈哈" android:maxLines="1" />
+        <TextView android:textSize="@dimen/abi" android:textColor="@color/ie" android:ellipsize="end" android:id="@id/m_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="哈哈哈" android:maxLines="1" />
+        <TextView android:textSize="@dimen/abi" android:textColor="@color/ie" android:ellipsize="end" android:id="@id/lz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="腾讯视频" android:maxLines="1" android:maxLength="10" android:drawableRight="@drawable/k_" android:drawablePadding="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/m2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lu">
+        <View android:background="@color/bh" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <TextView android:textSize="14.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/m3" android:background="@drawable/al" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="1" android:maxLines="1" style="@style/l4" />
+        <View android:background="@color/bh" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <TextView android:textSize="14.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/m4" android:background="@drawable/al" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="2" android:maxLines="1" style="@style/l4" />
+        <View android:background="@color/bh" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/m8" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="@string/lj" style="@style/l4" />
+    </LinearLayout>
+</RelativeLayout>

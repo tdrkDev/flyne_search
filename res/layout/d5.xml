@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/o2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.common.widget.SmoothCornerView android:id="@id/o3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/k4" android:layout_marginEnd="@dimen/k4" app:mzCornerRadius="@dimen/k0">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/o4" android:background="@color/gl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/k8" android:paddingStart="@dimen/k1" android:paddingEnd="@dimen/k1">
+            <ImageView android:id="@android:id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:paddingEnd="@dimen/k6" />
+            <RelativeLayout android:id="@id/nk" android:paddingTop="@dimen/k5" android:paddingBottom="@dimen/k5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/k9">
+                <TextView android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/k7" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/o5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oi" />
+                <TextView android:textAppearance="@style/ja" android:id="@id/o6" android:paddingTop="@dimen/jz" android:paddingBottom="@dimen/jz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/jy" android:paddingEnd="@dimen/jy" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.meizu.common.widget.SmoothCornerView>
+    <View android:id="@id/o7" android:background="#26000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+</LinearLayout>

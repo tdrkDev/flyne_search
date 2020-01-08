@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ホームへ移動</string>
+    <string name="b">上へ移動</string>
+    <string name="c">その他のオプション</string>
+    <string name="d">完了</string>
+    <string name="e">すべて表示</string>
+    <string name="f">アプリの選択</string>
+    <string name="g">OFF</string>
+    <string name="h">ON</string>
+    <string name="i">検索…</string>
+    <string name="j">検索キーワードを削除</string>
+    <string name="k">検索キーワード</string>
+    <string name="l">検索</string>
+    <string name="m">検索キーワードを送信</string>
+    <string name="n">音声検索</string>
+    <string name="o">共有</string>
+    <string name="p">%sと共有</string>
+    <string name="q">折りたたむ</string>
+    <string name="r">検索</string>
+    <string name="s">999+</string>
+</resources>

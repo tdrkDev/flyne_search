@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rg" android:background="@color/cb" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ri" android:layout_width="90.0dip" android:layout_height="66.0dip" android:layout_marginTop="20.0dip" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ri" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/ik" android:textColor="@color/cd" android:ellipsize="end" android:id="@id/rh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="title" android:maxLines="2" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="8.0sp" android:textColor="#ffffffff" android:id="@id/ta" android:paddingLeft="2.0dip" android:paddingTop="1.0dip" android:paddingRight="2.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="4.0dip" android:layout_below="@id/rh" />
+        <TextView android:textSize="@dimen/ij" android:textColor="@color/cc" android:ellipsize="middle" android:id="@id/rj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:text="soure" android:singleLine="true" android:layout_toRightOf="@id/ta" android:layout_below="@id/rh" />
+    </RelativeLayout>
+    <View android:background="@color/ce" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="20.0dip" android:layout_below="@id/ri" />
+</RelativeLayout>

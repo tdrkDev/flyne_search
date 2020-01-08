@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Boshiga o‘tish</string>
+    <string name="b">Yuqoriga o‘tish</string>
+    <string name="c">Boshqa parametrlar</string>
+    <string name="d">Tayyor</string>
+    <string name="e">Barchasini ko‘rish</string>
+    <string name="f">Dastur tanlang</string>
+    <string name="g">O‘CHIQ</string>
+    <string name="h">YONIQ</string>
+    <string name="i">Qidirish…</string>
+    <string name="j">So‘rovni tozalash</string>
+    <string name="k">So‘rovni izlash</string>
+    <string name="l">Qidirish</string>
+    <string name="m">So‘rov yaratish</string>
+    <string name="n">Ovozli qidiruv</string>
+    <string name="o">Ruxsat berish</string>
+    <string name="p">%s orqali ulashish</string>
+    <string name="q">Yig‘ish</string>
+    <string name="r">Qidirish</string>
+    <string name="s">999+</string>
+</resources>

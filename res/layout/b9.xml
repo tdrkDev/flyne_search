@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/i5" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/a8w" android:gravity="end|center" android:paddingTop="14.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gl" android:includeFontPadding="false" android:drawablePadding="@dimen/aat" android:drawableStart="@drawable/ga" android:paddingStart="16.0dip" style="@style/u3" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/gr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/i6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a8t" android:layout_marginBottom="5.0dip" android:contentDescription="@null" android:layout_marginStart="@dimen/a8x" />
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/hn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/ho" android:layout_marginEnd="@dimen/hp">
+                <ImageView android:id="@id/i7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/a6q" android:contentDescription="@null" />
+                <TextView android:ellipsize="end" android:id="@id/i8" android:background="@drawable/gi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@id/i7" android:paddingStart="@dimen/hy" android:paddingEnd="@dimen/hz" style="@style/ua" />
+                <com.meizu.net.search.ui.module.view.NoClickFoldableTextView android:textSize="@dimen/hs" android:textColor="#99000000" android:ellipsize="end" android:id="@id/i9" android:background="@drawable/gi" android:paddingTop="@dimen/ht" android:paddingBottom="@dimen/hq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/i8" android:lineSpacingExtra="@dimen/hr" />
+            </RelativeLayout>
+            <ImageView android:layout_gravity="end|center" android:id="@id/i_" android:background="@drawable/gi" android:layout_width="@dimen/hx" android:layout_height="@dimen/hu" android:scaleType="centerCrop" android:layout_marginStart="@dimen/hv" android:layout_marginEnd="@dimen/hw" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/u2" android:background="@color/l0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="11.0dip" android:paddingEnd="11.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/u3" android:layout_width="@dimen/a72" android:layout_height="wrap_content">
+        <ViewFlipper android:id="@id/u4" android:background="@drawable/a6d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="false" />
+        <android.support.v7.widget.AppCompatImageView android:id="@id/u5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

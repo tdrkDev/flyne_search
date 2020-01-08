@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/al" android:paddingLeft="@dimen/fd" android:paddingRight="@dimen/fd" android:paddingBottom="@dimen/fd" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/io" android:background="@color/bh" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <TextView android:textSize="@dimen/abk" android:textColor="@color/b4" android:ellipsize="end" android:id="@id/ll" android:paddingTop="@dimen/fd" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="哈哈哈" android:maxLines="2" style="@style/l4" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/lp" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll">
+        <ImageView android:id="@id/jt" android:layout_width="@dimen/gp" android:layout_height="@dimen/go" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ju" android:layout_width="@dimen/gp" android:layout_height="@dimen/go" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/jv" android:layout_width="@dimen/gp" android:layout_height="@dimen/go" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.meizu.common.widget.LabelTextView android:id="@id/la" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gb" android:text="哈哈" android:layout_below="@id/lp" style="@style/x1" />
+    <TextView android:textSize="@dimen/abg" android:textColor="@color/ie" android:ellipsize="end" android:id="@id/lm" android:paddingRight="@dimen/gb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="哈哈哈" android:layout_toRightOf="@id/la" android:layout_below="@id/lp" />
+    <TextView android:textSize="@dimen/abg" android:textColor="@color/ie" android:ellipsize="end" android:id="@id/ln" android:paddingRight="@dimen/gb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="哈哈哈" android:layout_toRightOf="@id/lm" android:layout_below="@id/lp" />
+    <TextView android:textSize="@dimen/abg" android:textColor="@color/ie" android:ellipsize="end" android:id="@id/lo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="哈哈哈" android:layout_toRightOf="@id/ln" android:layout_below="@id/lp" />
+</RelativeLayout>

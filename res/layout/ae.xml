@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/cb" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/gn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/go" android:layout_centerVertical="true" layout="@layout/ah" />
+    <ImageView android:id="@id/go" android:background="#ffebebeb" android:layout_width="1.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" />
+    <include android:id="@id/gp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/go" android:layout_centerVertical="true" layout="@layout/ah" />
+    <View android:background="@color/ce" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

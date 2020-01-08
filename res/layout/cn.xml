@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/n7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.TabLayout android:id="@id/n8" android:paddingLeft="@dimen/fb" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:layout_weight="1.0" app:tabIndicatorColor="@color/l2" app:tabIndicatorHeight="1.0dip" app:tabContentStart="@dimen/ff" app:tabBackground="@null" app:tabMode="e0" app:tabMinWidth="20.0dip" app:tabMaxWidth="200.0dip" app:tabTextAppearance="@style/h1" app:tabTextColor="@color/bg" app:tabSelectedTextColor="@color/l2" app:tabPaddingStart="8.0dip" app:tabPaddingEnd="8.0dip" />
+        <TextView android:textSize="26.0sp" android:textColor="@color/bf" android:gravity="top" android:id="@id/kr" android:paddingLeft="@dimen/fj" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" android:text="+" />
+    </LinearLayout>
+    <View android:id="@id/n9" android:background="@color/bm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <com.meizu.net.search.ui.module.widget.ViewPagerFix android:id="@id/n_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</LinearLayout>

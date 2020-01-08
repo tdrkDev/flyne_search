@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">"ਹੋਮ 'ਤੇ ਜਾਓ"</string>
+    <string name="b">ਉੱਪਰ ਜਾਓ</string>
+    <string name="c">ਹੋਰ ਚੋਣਾਂ</string>
+    <string name="d">ਹੋ ਗਿਆ</string>
+    <string name="e">ਸਭ ਦੇਖੋ</string>
+    <string name="f">ਇੱਕ ਐਪ ਚੁਣੋ</string>
+    <string name="g">ਬੰਦ</string>
+    <string name="h">ਤੇ</string>
+    <string name="i">ਖੋਜ…</string>
+    <string name="j">ਸਵਾਲ ਹਟਾਓ</string>
+    <string name="k">ਖੋਜ ਪੁੱਛਗਿੱਛ</string>
+    <string name="l">ਖੋਜੋ</string>
+    <string name="m">ਸਵਾਲ ਪ੍ਰਸਤੁਤ ਕਰੋ</string>
+    <string name="n">ਵੌਇਸ ਖੋਜ</string>
+    <string name="o">ਇਸ ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="p">%s ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="q">ਨਸ਼ਟ ਕਰੋ</string>
+    <string name="r">ਖੋਜੋ</string>
+    <string name="s">999+</string>
+</resources>

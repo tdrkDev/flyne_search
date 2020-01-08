@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Негізгі бетте қозғалу</string>
+    <string name="b">Жоғары қозғалу</string>
+    <string name="c">Басқа опциялар</string>
+    <string name="d">Дайын</string>
+    <string name="e">Барлығын көру</string>
+    <string name="f">Қолданбаны таңдау</string>
+    <string name="g">ӨШІРУЛІ</string>
+    <string name="h">ҚОСУЛЫ</string>
+    <string name="i">Іздеу…</string>
+    <string name="j">Сұрақты жою</string>
+    <string name="k">Сұрақты іздеу</string>
+    <string name="l">Іздеу</string>
+    <string name="m">Сұрақты жіберу</string>
+    <string name="n">Дауыс арқылы іздеу</string>
+    <string name="o">Бөлісу</string>
+    <string name="p">%s қолданбасымен бөлісу</string>
+    <string name="q">Тасалау</string>
+    <string name="r">Іздеу</string>
+    <string name="s">999+</string>
+</resources>

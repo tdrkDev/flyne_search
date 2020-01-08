@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/g3" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/aaq"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/io" android:background="@color/bh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/fh" android:layout_marginRight="@dimen/fh" android:layout_alignParentTop="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/wk" android:paddingTop="@dimen/aap" android:paddingBottom="@dimen/aaj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aao" android:layout_marginBottom="@dimen/aai" android:src="@drawable/lc" android:layout_centerVertical="true" android:contentDescription="@string/m7" android:paddingStart="@dimen/aal" android:paddingEnd="@dimen/aan" android:layout_marginStart="@dimen/aak" android:layout_marginEnd="@dimen/aam" />
+    <TextView android:textSize="@dimen/abl" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/wl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="24.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/wk" android:layout_centerVertical="true" style="@style/l4" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="end|center" android:id="@id/ht" android:layout_width="50.0dip" android:layout_height="50.0dip" android:text="打开" android:contentDescription="@string/gu" android:layout_marginStart="@dimen/a9z" android:layout_marginEnd="@dimen/a_0" android:layout_alignParentEnd="true" />
+    <EditText android:textSize="@dimen/a_p" android:gravity="start|center" android:id="@id/hu" android:focusable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:hint="输入网址" android:includeFontPadding="false" android:maxLength="100" android:imeOptions="actionSearch" android:layout_marginEnd="60.0dip" />
+</RelativeLayout>

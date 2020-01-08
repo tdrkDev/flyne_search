@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">હોમ પર નેવિગેટ કરો</string>
+    <string name="b">ઉપર નેવિગેટ કરો</string>
+    <string name="c">વધુ વિકલ્પો</string>
+    <string name="d">થઈ ગયું</string>
+    <string name="e">બધું જુઓ</string>
+    <string name="f">એક ઍપ્લિકેશન પસંદ કરો</string>
+    <string name="g">બંધ</string>
+    <string name="h">ચાલુ</string>
+    <string name="i">શોધો…</string>
+    <string name="j">ક્વેરી સાફ કરો</string>
+    <string name="k">શોધ ક્વેરી</string>
+    <string name="l">શોધો</string>
+    <string name="m">ક્વેરી સબમિટ કરો</string>
+    <string name="n">વૉઇસ શોધ</string>
+    <string name="o">આની સાથે શેર કરો</string>
+    <string name="p">%sની સાથે શેર કરો</string>
+    <string name="q">સંકુચિત કરો</string>
+    <string name="r">શોધો</string>
+    <string name="s">999+</string>
+</resources>

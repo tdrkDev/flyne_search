@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/wn" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.net.search.ui.module.widget.KeyboardListView android:id="@id/i3" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/gf" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#00000000" android:dividerHeight="@dimen/gf" android:footerDividersEnabled="true" android:overScrollMode="always" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="e" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="bb" parent="@style/yt" />
+    <style name="bd" parent="@style/yu" />
+    <style name="bo" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="d3" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="d4" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="d5" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="d6" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="d7" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="d8" parent="@style/dy">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="yt" parent="@style/yr">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/hx</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="yu" parent="@style/ys">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/hx</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

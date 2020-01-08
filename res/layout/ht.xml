@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/y" style="@style/gh"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/v" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/a7l" android:layout_alignParentEnd="true" app:corner_radius="@dimen/a7d" style="@style/gf" />
+    <View android:background="@drawable/gm" android:layout_width="@dimen/a7f" android:layout_height="@dimen/a7x" android:layout_alignBottom="@id/v" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/a7o" android:textColor="@color/j_" android:id="@id/un" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="00:01" android:maxLines="1" android:includeFontPadding="false" android:layout_alignBottom="@id/v" android:fontFamily="sans-serif-medium" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <android.support.v7.widget.AppCompatImageView android:id="@id/uo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:src="@drawable/a6n" android:layout_alignBottom="@id/v" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/un" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_toStartOf="@id/v" android:layout_alignParentStart="true">
+        <TextView android:textSize="@dimen/a7m" android:id="@id/a4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <include android:id="@id/z" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a7h" android:layout_below="@id/a4" layout="@layout/ho" />
+    </RelativeLayout>
+</RelativeLayout>

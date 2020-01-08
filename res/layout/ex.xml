@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flyme.support.v7.widget.FlymeAlertDialogLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/eb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.widget.Space android:id="@id/rl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ej" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/ek" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/t8" android:layout_height="@dimen/t7" android:layout_marginRight="8.0dip" android:src="@null" android:scaleType="fitCenter" android:layout_marginEnd="8.0dip" />
+            <android.support.v7.widget.DialogTitle android:ellipsize="end" android:gravity="start" android:id="@id/el" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" style="?android:attr/windowTitleStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.widget.Space android:id="@id/rm" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/ec" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="top" android:id="@id/ed" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <android.support.v4.widget.NestedScrollView android:id="@id/ee" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="start" android:id="@android:id/message" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="?attr/mzDialogMessageStyle" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <View android:layout_gravity="bottom" android:id="@id/eh" android:background="#0d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/ei" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/dv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <android.widget.Space android:id="@id/rn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/e_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <Button android:textSize="17.0sp" android:ellipsize="end" android:gravity="center" android:id="@android:id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" style="?attr/buttonBarNeutralButtonStyle" />
+        <Button android:textSize="17.0sp" android:ellipsize="end" android:gravity="center" android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" style="?attr/buttonBarNegativeButtonStyle" />
+        <Button android:textSize="17.0sp" android:ellipsize="end" android:gravity="center" android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" style="?attr/buttonBarPositiveButtonStyle" />
+    </LinearLayout>
+    <android.widget.Space android:id="@id/ro" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</flyme.support.v7.widget.FlymeAlertDialogLayout>

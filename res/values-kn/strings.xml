@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ಮುಖಪುಟವನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="b">ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="c">ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು</string>
+    <string name="d">ಮುಗಿದಿದೆ</string>
+    <string name="e">ಎಲ್ಲವನ್ನೂ ನೋಡಿ</string>
+    <string name="f">ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="g">ಆಫ್</string>
+    <string name="h">ಆನ್</string>
+    <string name="i">ಹುಡುಕಿ…</string>
+    <string name="j">ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸು</string>
+    <string name="k">ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ</string>
+    <string name="l">ಹುಡುಕಿ</string>
+    <string name="m">ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸು</string>
+    <string name="n">ಧ್ವನಿ ಹುಡುಕಾಟ</string>
+    <string name="o">ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="p">%s ನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="q">ಸಂಕುಚಿಸು</string>
+    <string name="r">ಹುಡುಕಿ</string>
+    <string name="s">999+</string>
+</resources>

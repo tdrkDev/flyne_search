@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+@Author: yanbo
+@Description:
+	add for error default H5
+	UI视觉参考Flyme Browser Error页面(使用Chrome与PhpStorm调试)
+-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0,
+		maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+	<title id="title">找不到网页</title>
+	<!--CSS样式-->
+	<style type="text/css">
+		/*初始化盒子边缘*/
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+		/*各种属性设置*/
+		body {
+			width: 100%;
+			height: 100%;
+			background-color: #fafafa;
+			color: #b8b8b8;
+			font-family: Arial, Helvetica, sans-serif;
+			direction: ltr;
+			text-align: center;
+		}
+		#content {
+			position: absolute;
+			overflow: hidden;
+			top: -60px;
+			left: 0px;
+			bottom: 0px;
+			right: 0px;
+			display: table;
+			text-align: center;
+			height: auto;
+			width: 217px;
+			margin: auto;
+		}
+		#big_title {
+			margin-bottom: 12px;
+			font-size:18px;
+			color: rgba(0,0,0,0.5);
+			height:18px;
+		}
+		#first_div {
+			white-space: nowrap;
+			max-width: 300px;
+			height: 14px;
+		}
+		#url {
+			display: block;
+			color: rgba(0x32, 0xa5, 0xe7, 1);
+			text-decoration: none;
+			height: 14px;
+			font-size: 14px;
+		}
+		#divider_hr {
+			opacity: 0.15;
+			color: #000000;
+			border: none;
+			border-top: 1px solid black;
+			margin-top: 17px;
+			margin-bottom: 15px;
+			height: 0px;
+			display: block;
+		}
+		#text {
+			margin: auto;
+			padding: 0 14px 0 6px;
+			display: table;
+			color: rgba(0,0,0,0.3);
+			width: auto;
+			text-align: left;
+		}
+		#text div {
+			height: 20px;
+			line-height: 20px;
+		}
+		#tips2 {
+			margin: 6px 0px;
+		}
+		img.styles {
+			height: 20px;
+			vertical-align: text-bottom;
+		}
+		/*手指触摸a标签时颜色变化*/
+		a:link, a:visited, a:active, a:hover {
+			color: #32a5e7;
+			text-decoration: none;
+		}
+	</style>
+	<!--JavaScript脚本-->
+	<script type="text/javascript">
+		function getText(el) {
+			return el.innerText || el.textContent;
+		}
+
+		function setText(el, text) {
+			if (el.innerText) {
+				el.innerText = text;
+			} else if (el.textContent) {
+				el.textContent = text;
+			}
+			document.createStyleSheet("");
+		}
+
+		function upToCenter() {
+			var content = document.getElementById("content");
+			var divider_hr = document.getElementById("divider_hr");
+			var text = document.getElementById("text");
+			content.style.width = Math.max(text.offsetWidth,divider_hr.offsetWidth);
+			content.style.margin = "auto";
+		}
+
+		function updateEllipsis(container, label) {
+			if (label.title != "") {
+				setText(label, label.title);
+				label.title = "";
+			}
+
+			label.href=location.href;
+			setText(label,label.href);
+
+			if (container.scrollWidth > container.offsetWidth) {
+				var text = getText(label);
+				//此处重要，利用container的实际宽度和显示宽度的比例计算出文字显示的个数，截取开头和结尾部分字符，中间无法显示部分打点显示；
+				var len = container.offsetWidth / container.scrollWidth * text.length;
+				setText(label, text.substring(0, (Math.floor(len) - 1)/2) + ".." + text.substring(text.length - (Math.floor(len) - 1)/2, text.length) );
+				label.title = text;
+			}
+
+			upToCenter();
+		}
+		//初始化
+		function init() {
+			var first_div = document.getElementById("first_div");
+			var url = document.getElementById("url");
+			updateEllipsis(first_div, url);
+		}
+
+	</script>
+</head>
+
+<body onload="init();">
+    <div id="content">
+        <div id="big_title">无法连接网络</div>
+		<div id="first_div">
+			<a id="url" href="http://www.ddddfffdddd.com/">http://www.ddddfffdddd.com/</a>
+		</div>
+	  
+	    <hr id="divider_hr"/>
+
+		<div id="text">
+			<div id="tips1">
+				<img class="styles" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAAdUlEQVRo3u3UsQ2AIBBG4Rcr18A5MNRo2H8dCxuNVBZHou9jgPs5jgNJkiRJ0lsTiUylkklM0eVnCu1yCnPs7e/lzwiBXUiP8o1GiguQuwFyXIC9G2AfHaD+6AmGD+Hwbzh8EZ1dWFjZ2FhZ4lexJEmSJH3HARrGId39swNPAAAAAElFTkSuQmCC">
+				没有网络信号或数据连接
+			</div>
+			<div id="tips2">
+				<img class="styles" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAAdUlEQVRo3u3UsQ2AIBBG4Rcr18A5MNRo2H8dCxuNVBZHou9jgPs5jgNJkiRJ0lsTiUylkklM0eVnCu1yCnPs7e/lzwiBXUiP8o1GiguQuwFyXIC9G2AfHaD+6AmGD+Hwbzh8EZ1dWFjZ2FhZ4lexJEmSJH3HARrGId39swNPAAAAAElFTkSuQmCC">
+				此网页可能暂时出现故障
+			</div>
+			<div id="tips3">
+				<img class="styles" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAAdUlEQVRo3u3UsQ2AIBBG4Rcr18A5MNRo2H8dCxuNVBZHou9jgPs5jgNJkiRJ0lsTiUylkklM0eVnCu1yCnPs7e/lzwiBXUiP8o1GiguQuwFyXIC9G2AfHaD+6AmGD+Hwbzh8EZ1dWFjZ2FhZ4lexJEmSJH3HARrGId39swNPAAAAAElFTkSuQmCC">
+				输入的网址不正确
+			</div>
+		</div>
+    </div>
+</body>
+</html>

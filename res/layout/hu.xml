@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/y" style="@style/gh"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/a4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="10.0dip" layout="@layout/hp" />
+    <include android:id="@id/z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/a4" layout="@layout/ho" />
+</RelativeLayout>

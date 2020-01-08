@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/oq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ue" android:scaleType="fitXY" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ob" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/p4" android:layout_width="@dimen/ks" android:layout_height="fill_parent">
+            <com.meizu.common.widget.ScrollTextView android:layout_gravity="start" android:id="@id/og" android:layout_width="@dimen/kt" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/au" android:textColor="@color/er" android:layout_gravity="end" android:id="@id/p5" android:paddingTop="@dimen/ky" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="sans-serif-medium" />
+        </FrameLayout>
+        <ImageView android:id="@id/ov" android:visibility="gone" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/p6" android:layout_width="@dimen/ku" android:layout_height="fill_parent" android:layout_marginStart="8.0dip">
+            <com.meizu.common.widget.ScrollTextView android:layout_gravity="start" android:id="@id/oj" android:layout_width="@dimen/kv" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/au" android:textColor="@color/er" android:layout_gravity="end" android:id="@id/ok" android:paddingTop="@dimen/ky" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="sans-serif-medium" />
+        </FrameLayout>
+        <ImageView android:id="@id/oz" android:visibility="gone" android:layout_width="0.0px" android:layout_height="fill_parent" />
+        <FrameLayout android:orientation="horizontal" android:id="@id/p7" android:layout_width="@dimen/kw" android:layout_height="fill_parent" android:layout_marginStart="8.0dip">
+            <com.meizu.common.widget.ScrollTextView android:id="@id/om" android:layout_width="@dimen/kx" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/au" android:textColor="@color/er" android:layout_gravity="end" android:id="@id/on" android:paddingTop="@dimen/ky" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="sans-serif-medium" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

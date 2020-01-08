@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Naviger hjem</string>
+    <string name="b">Naviger op</string>
+    <string name="c">Flere muligheder</string>
+    <string name="d">Luk</string>
+    <string name="e">Se alle</string>
+    <string name="f">Vælg en app</string>
+    <string name="g">FRA</string>
+    <string name="h">TIL</string>
+    <string name="i">Søg…</string>
+    <string name="j">Ryd forespørgslen</string>
+    <string name="k">Søgeforespørgsel</string>
+    <string name="l">Søg</string>
+    <string name="m">Indsend forespørgslen</string>
+    <string name="n">Talesøgning</string>
+    <string name="o">Del med</string>
+    <string name="p">Del med %s</string>
+    <string name="q">Skjul</string>
+    <string name="r">Søg</string>
+    <string name="s">999+</string>
+</resources>

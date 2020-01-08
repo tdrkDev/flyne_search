@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/ui" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/a76">
+        <com.meizu.common.widget.LoadingView android:layout_gravity="center_vertical" android:id="@id/uj" android:layout_width="@dimen/a7_" android:layout_height="@dimen/a77" app:mcLoadingRadius="@dimen/a78" app:mcRingWidth="@dimen/a79" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/a7b" android:textColor="@color/jc" android:layout_gravity="center_vertical" android:id="@id/uk" android:paddingLeft="@dimen/a7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/od" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ul" android:layout_width="@dimen/a75" android:layout_height="@dimen/a73" android:layout_marginLeft="@dimen/a74" android:src="@drawable/lb" />
+    </LinearLayout>
+</RelativeLayout>

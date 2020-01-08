@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Перайсці на галоўную старонку</string>
+    <string name="b">Перайсці ўверх</string>
+    <string name="c">Дадатковыя параметры</string>
+    <string name="d">Гатова</string>
+    <string name="e">Прагледзець усё</string>
+    <string name="f">Выбраць праграму</string>
+    <string name="g">ВЫКЛ.</string>
+    <string name="h">УКЛ.</string>
+    <string name="i">Пошук...</string>
+    <string name="j">Выдалiць запыт</string>
+    <string name="k">Запыт на пошук</string>
+    <string name="l">Пошук</string>
+    <string name="m">Адправіць запыт</string>
+    <string name="n">Галасавы пошук</string>
+    <string name="o">Абагуліць з</string>
+    <string name="p">Абагуліць праз праграму %s</string>
+    <string name="q">Згарнуць</string>
+    <string name="r">Пошук</string>
+    <string name="s">больш за 999</string>
+</resources>

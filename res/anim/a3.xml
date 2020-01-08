@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:fillAfter="true" android:fillEnabled="true" android:detachWallpaper="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@anim/a4" android:duration="300" android:fromAlpha="0.0" android:toAlpha="1.0" />
+    <translate android:interpolator="@anim/a5" android:duration="300" android:fromYDelta="-200.0" android:toYDelta="0.0" />
+</set>

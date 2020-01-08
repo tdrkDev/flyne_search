@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/al" android:paddingTop="@dimen/ga" android:paddingBottom="@dimen/ga" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/l4" android:layout_width="fill_parent" android:layout_height="86.66998dip" android:scaleType="centerCrop" android:layout_below="@id/ix" />
+    <TextView android:textSize="@dimen/abg" android:textColor="@color/l2" android:id="@id/l5" android:paddingLeft="4.0dip" android:paddingTop="@dimen/fw" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g_" android:layout_marginTop="@dimen/g_" android:layout_alignLeft="@id/l4" android:layout_alignTop="@id/l4" />
+    <TextView android:textSize="@dimen/abg" android:textColor="@color/l2" android:id="@id/l6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g_" android:layout_marginBottom="@dimen/g7" android:layout_alignLeft="@id/l4" android:layout_alignBottom="@id/l4" />
+    <TextView android:textSize="@dimen/abg" android:textColor="@color/l2" android:id="@id/l7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g_" android:layout_marginBottom="@dimen/g7" android:drawableLeft="@drawable/kr" android:drawablePadding="@dimen/g7" android:layout_alignRight="@id/l4" android:layout_alignBottom="@id/l4" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/b4" android:ellipsize="end" android:gravity="left" android:id="@id/l8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="..." android:maxLines="2" android:layout_below="@id/l4" />
+    <View android:id="@id/io" android:background="@color/bh" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_below="@id/l8" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">M/d HH:mm</item>
+        <item quantity="zero">HH:mm</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">M月d日 HH:mm</item>
+        <item quantity="zero">HH:mm</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">yyyy年M月d日</item>
+        <item quantity="zero">HH:mm</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">yyyy/M/d</item>
+        <item quantity="zero">HH:mm</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%d小时前</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">%d分钟前</item>
+    </plurals>
+</resources>

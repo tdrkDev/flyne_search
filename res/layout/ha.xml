@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/n8" android:layout_width="wrap_content" android:layout_height="?mzActionBarSizeFullScreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/tk" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/a5s" style="?attr/mzToolBarTabTextStyle" />
+    <flyme.support.v7.widget.TitleBarBadgeView android:id="@id/tl" android:layout_width="@dimen/a5s" android:layout_height="@dimen/a5s" android:layout_marginTop="13.0dip" android:layout_marginStart="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/gj" android:paddingRight="@dimen/gj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.net.search.ui.module.widget.OverScrollLayout android:id="@id/i2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.meizu.net.search.ui.module.widget.KeyboardRecyclerView android:id="@id/i3" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </com.meizu.net.search.ui.module.widget.OverScrollLayout>
+    <ImageView android:id="@id/i4" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fm" android:layout_marginBottom="@dimen/fx" android:src="@drawable/ka" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/fj" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <LinearLayout android:gravity="bottom|center" android:background="@android:color/transparent" android:layout_width="54.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/fk" android:background="@drawable/gj" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/fk" android:scaleType="center" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/a_v" android:textColor="@color/km" android:gravity="center" android:id="@id/fl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/iv" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <View android:id="@id/fm" android:background="@color/ki" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_below="@id/fj" />
+    <RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-22.0dip" android:layout_below="@id/fm">
+        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="7.3299866dip" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                <com.meizu.net.search.ui.module.widget.PlaceEditText android:textSize="@dimen/a_u" android:textColorHint="@color/kk" android:ellipsize="end" android:layout_gravity="center|left" android:id="@id/fn" android:background="@null" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:hint="@string/ix" android:singleLine="true" android:includeFontPadding="false" android:textCursorDrawable="@drawable/gh" style="@style/ua" />
+                <TextView android:textSize="@dimen/a_u" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="right" android:layout_gravity="center|left" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:text="@string/j8" android:singleLine="true" android:includeFontPadding="false" style="@style/ua" />
+            </LinearLayout>
+            <View android:background="@color/ki" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <com.meizu.net.search.ui.module.widget.NoFadingEdgeListView android:scrollbarTrackVertical="@color/l0" android:scrollbarStyle="outsideOverlay" android:id="@id/fo" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/ki" android:dividerHeight="2.0px" />
+            <include android:id="@id/fp" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="500.0dip" android:layout_marginTop="40.0dip" android:layout_centerInParent="true" layout="@layout/dv" />
+            <LinearLayout android:id="@id/fq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="500.0dip">
+                <com.meizu.common.widget.EmptyView android:id="@id/fr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="24.0dip" common:mcTopMarginOfTips="12.0dip" common:mcSrcOfImage="@drawable/s4" common:mcTitle="@string/jb" common:mcTitleTextAppearance="@style/kz" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:paddingTop="5.3299866dip" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginLeft="12.0dip">
+                <com.meizu.net.search.ui.module.widget.PlaceEditText android:textSize="@dimen/a_u" android:textColorHint="@color/kk" android:ellipsize="end" android:gravity="center|left" android:id="@id/fs" android:background="@null" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:hint="@string/ix" android:singleLine="true" android:layout_centerVertical="true" android:textCursorDrawable="@drawable/gh" style="@style/ua" />
+                <RelativeLayout android:id="@id/ft" android:background="@drawable/gi" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/fs">
+                    <TextView android:textSize="@dimen/a_u" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center" android:id="@id/fu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/j5" android:singleLine="true" android:layout_toLeftOf="@id/fv" style="@style/ua" />
+                    <ImageView android:id="@id/fv" android:layout_width="24.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/a6x" android:scaleType="center" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/ki" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <com.meizu.net.search.ui.module.widget.NoFadingEdgeListView android:scrollbarTrackVertical="@color/l0" android:scrollbarStyle="outsideOverlay" android:id="@id/fw" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/ki" android:dividerHeight="2.0px" />
+            <include android:id="@id/fx" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="500.0dip" android:layout_marginTop="40.0dip" android:layout_centerInParent="true" layout="@layout/dv" />
+            <LinearLayout android:id="@id/fy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="500.0dip">
+                <com.meizu.common.widget.EmptyView android:id="@id/fz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="24.0dip" android:layout_centerInParent="false" common:mcTopMarginOfTips="12.0dip" common:mcSrcOfImage="@drawable/s4" common:mcTitle="@string/jb" common:mcTitleTextAppearance="@style/kz" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/g0" android:background="@drawable/gi" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="73.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/a_v" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="13.0dip" android:text="@string/jm" style="@style/ua" />
+                    <TextView android:textSize="12.0sp" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/g1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="12.0dip" android:text="@string/je" />
+                </LinearLayout>
+                <ImageView android:layout_width="24.0dip" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:src="@drawable/a6x" android:scaleType="center" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/g2" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginBottom="-4.0dip" android:layout_alignParentBottom="true">
+            <View android:background="@color/ki" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/a_s" android:textColor="@color/k7" android:gravity="center" android:id="@id/g3" android:background="@drawable/gj" android:paddingLeft="@dimen/gg" android:paddingRight="@dimen/gg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/g_" android:layout_centerInParent="true" android:fontFamily="sans-serif-medium" />
+                </RelativeLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/aj" android:layout_width="1.0dip" android:layout_height="24.0dip" android:layout_weight="0.0" />
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/a_s" android:textColor="@color/k6" android:gravity="center" android:id="@id/g4" android:background="@drawable/gj" android:paddingLeft="@dimen/gg" android:paddingRight="@dimen/gg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gd" android:layout_centerInParent="true" android:fontFamily="sans-serif-medium" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

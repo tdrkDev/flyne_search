@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f" parent="@style/l5" />
+    <style name="g" parent="@style/l5" />
+    <style name="h" parent="@style/l7" />
+    <style name="i" parent="@style/l8" />
+    <style name="j" parent="@style/l9" />
+    <style name="k" parent="@style/l_" />
+    <style name="l" parent="@style/lh" />
+</resources>

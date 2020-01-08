@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Нүүр хуудас руу шилжих</string>
+    <string name="b">Дээш шилжих</string>
+    <string name="c">Нэмэлт сонголтууд</string>
+    <string name="d">Дууссан</string>
+    <string name="e">Бүгдийг харах</string>
+    <string name="f">Апп сонгох</string>
+    <string name="g">ИДЭВХГҮЙ</string>
+    <string name="h">ИДЭВХТЭЙ</string>
+    <string name="i">Хайх...</string>
+    <string name="j">Асуулгыг цэвэрлэх</string>
+    <string name="k">Хайх асуулга</string>
+    <string name="l">Хайх</string>
+    <string name="m">Асуулгыг илгээх</string>
+    <string name="n">Дуут хайлт</string>
+    <string name="o">Хуваалцах</string>
+    <string name="p">%s-тай хуваалцах</string>
+    <string name="q">Хумих</string>
+    <string name="r">Хайлт</string>
+    <string name="s">999+</string>
+</resources>

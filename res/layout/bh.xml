@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/iy" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/g1">
+        <ImageView android:id="@id/iz" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        <TextView android:textSize="@dimen/abi" android:textColor="@color/kq" android:gravity="center_vertical" android:id="@id/ix" android:paddingLeft="@dimen/gi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="标题" android:includeFontPadding="true" style="@style/ua" />
+        <com.meizu.net.search.ui.module.widget.ClickStatusImageView android:id="@id/j0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/k9" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.meizu.net.search.ui.module.widget.ClickTextview android:textSize="12.0sp" android:textColor="@color/k_" android:gravity="center" android:id="@id/j1" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="标题" android:drawablePadding="4.0dip" style="@style/ua" />
+    </LinearLayout>
+    <com.meizu.net.search.ui.module.widget.cardview.CardView android:orientation="vertical" android:id="@id/j2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#bfffffff" app:cardCornerRadius="@dimen/gf" app:cardElevation="0.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.meizu.net.search.ui.module.widget.NestRecyclerView android:id="@id/j3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/j4" android:background="@color/a7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginStart="@dimen/a8x" android:layout_marginEnd="@dimen/a8x" />
+        <FrameLayout android:id="@id/j5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/io" android:background="@color/bh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <TextView android:textSize="@dimen/a8w" android:textColor="@color/k_" android:gravity="center" android:id="@id/j6" android:background="@drawable/al" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/g5" style="@style/u3" />
+        <TextView android:textSize="@dimen/a8w" android:textColor="@color/ie" android:gravity="center" android:id="@id/j7" android:background="@drawable/al" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/g5" android:text="@string/ks" style="@style/u3" />
+        <View android:id="@id/j8" android:background="@color/bk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fb" />
+    </com.meizu.net.search.ui.module.widget.cardview.CardView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/j9" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/j_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/le" android:layout_marginStart="6.0dip" android:layout_marginEnd="14.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/k_" android:id="@id/ja" android:background="@drawable/g5" android:paddingLeft="@dimen/fb" android:paddingTop="9.0dip" android:paddingRight="@dimen/fb" android:paddingBottom="9.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kl" android:includeFontPadding="false" android:layout_marginEnd="8.0dip" />
+        <com.meizu.net.search.ui.module.widget.cardview.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/l0" app:cardCornerRadius="@dimen/g9" app:cardElevation="0.0dip">
+            <com.meizu.net.search.ui.module.widget.NestRecyclerView android:id="@id/jb" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.meizu.net.search.ui.module.widget.cardview.CardView>
+    </LinearLayout>
+</LinearLayout>

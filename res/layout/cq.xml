@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.net.search.ui.module.widget.NoBottomOverScrollLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.meizu.net.search.ui.module.widget.KeyboardRecyclerView android:id="@id/hm" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/gf" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.meizu.net.search.ui.module.widget.NoBottomOverScrollLayout>

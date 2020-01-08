@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Điều hướng về trang chủ</string>
+    <string name="b">Điều hướng lên trên</string>
+    <string name="c">Thêm tùy chọn</string>
+    <string name="d">Xong</string>
+    <string name="e">Xem tất cả</string>
+    <string name="f">Chọn một ứng dụng</string>
+    <string name="g">TẮT</string>
+    <string name="h">BẬT</string>
+    <string name="i">Tìm kiếm…</string>
+    <string name="j">Xóa truy vấn</string>
+    <string name="k">Tìm kiếm truy vấn</string>
+    <string name="l">Tìm kiếm</string>
+    <string name="m">Gửi truy vấn</string>
+    <string name="n">Tìm kiếm bằng giọng nói</string>
+    <string name="o">Chia sẻ với</string>
+    <string name="p">Chia sẻ với %s</string>
+    <string name="q">Thu gọn</string>
+    <string name="r">Tìm kiếm</string>
+    <string name="s">999+</string>
+</resources>

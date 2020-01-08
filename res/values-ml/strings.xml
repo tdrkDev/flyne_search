@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ഹോമിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
+    <string name="b">മുകളിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
+    <string name="c">കൂടുതൽ‍ ഓപ്‌ഷനുകള്‍</string>
+    <string name="d">പൂർത്തിയാക്കി</string>
+    <string name="e">എല്ലാം കാണുക</string>
+    <string name="f">ഒരു അപ്ലിക്കേഷൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="g">ഓഫ്</string>
+    <string name="h">ഓൺ</string>
+    <string name="i">തിരയുക…</string>
+    <string name="j">അന്വേഷണം മായ്‌ക്കുക</string>
+    <string name="k">തിരയൽ അന്വേഷണം</string>
+    <string name="l">തിരയൽ</string>
+    <string name="m">അന്വേഷണം സമർപ്പിക്കുക</string>
+    <string name="n">ശബ്ദതിരയൽ</string>
+    <string name="o">ഇവരുമായി പങ്കിടുക</string>
+    <string name="p">%s-മായി പങ്കിടുക</string>
+    <string name="q">ചുരുക്കുക</string>
+    <string name="r">തിരയുക</string>
+    <string name="s">999+</string>
+</resources>

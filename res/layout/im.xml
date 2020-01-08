@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.net.search.ui.module.view.SearchWindowView android:id="@id/ws" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ig" />
+    <FrameLayout android:id="@id/wt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/a_1" />
+</com.meizu.net.search.ui.module.view.SearchWindowView>

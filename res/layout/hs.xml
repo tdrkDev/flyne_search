@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/y" style="@style/gh"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.flyme.media.news.widget.NewsRoundCornerImageView android:id="@id/v" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/a7l" android:layout_alignParentEnd="true" app:corner_radius="@dimen/a7d" style="@style/gf" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_toStartOf="@id/v" android:layout_alignParentStart="true">
+        <TextView android:textSize="@dimen/a7m" android:id="@id/a4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <include android:id="@id/z" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a7h" android:layout_below="@id/a4" layout="@layout/ho" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">မူလနေရာကို သွားရန်</string>
+    <string name="b">အပေါ်သို့သွားရန်</string>
+    <string name="c">ပိုမိုရွေးချယ်စရာများ</string>
+    <string name="d">ပြီးဆုံးပါပြီ</string>
+    <string name="e">အားလုံးကို ကြည့်ရန်</string>
+    <string name="f">အက်ပ်တစ်ခုခုကို ရွေးချယ်ပါ</string>
+    <string name="g">ပိတ်</string>
+    <string name="h">ဖွင့်</string>
+    <string name="i">ရှာဖွေပါ...</string>
+    <string name="j">ရှာစရာ အချက်အလက်များ ဖယ်ရှားရန်</string>
+    <string name="k">ရှာစရာ အချက်အလက်နေရာ</string>
+    <string name="l">ရှာဖွေရန်</string>
+    <string name="m">ရှာဖွေစရာ အချက်အလက်ကို ပေးပို့ရန်</string>
+    <string name="n">အသံဖြင့် ရှာဖွေခြင်း</string>
+    <string name="o">မျှဝေဖို့ ရွေးပါ</string>
+    <string name="p">%s ဖြင့် မျှဝေရန်</string>
+    <string name="q">ခေါက်ရန်</string>
+    <string name="r">ရှာဖွေပါ</string>
+    <string name="s">၉၉၉+</string>
+</resources>

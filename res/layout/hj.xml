@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/u6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.6999817dip" android:layout_marginBottom="6.6999817dip" android:layout_marginStart="@dimen/a6w"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/u7" android:layout_width="fill_parent" android:layout_height="@dimen/a6u">
+        <TextView android:textSize="@dimen/a6x" android:textColor="@color/jb" android:id="@id/u8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/o8" />
+        <TextView android:textSize="@dimen/a6v" android:textColor="@color/ja" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/o9" android:layout_below="@id/u8" />
+    </RelativeLayout>
+    <android.support.constraint.ConstraintLayout android:gravity="center_vertical" android:id="@id/u9" android:layout_width="fill_parent" android:layout_height="@dimen/a6u">
+        <TextView android:textSize="@dimen/a6x" android:textColor="@color/jb" android:id="@id/u_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oi" app:layout_constraintBottom_toTopOf="@id/ua" app:layout_constraintLeft_toLeftOf="b3" app:layout_constraintTop_toTopOf="b3" app:layout_constraintVertical_chainStyle="b7" />
+        <TextView android:textSize="@dimen/a6v" android:textColor="@color/ja" android:id="@id/ua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/oj" android:layout_below="@id/u_" app:layout_constraintBottom_toBottomOf="b3" app:layout_constraintLeft_toLeftOf="b3" app:layout_constraintTop_toBottomOf="@id/u_" />
+        <android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a6i" android:paddingEnd="@dimen/a6w" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="b3" app:layout_constraintRight_toRightOf="b3" app:layout_constraintTop_toTopOf="b3" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

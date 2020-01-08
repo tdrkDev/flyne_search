@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.net.search.ui.module.widget.MultiStateView android:id="@id/hk" android:layout_width="fill_parent" android:layout_height="fill_parent" app:msv_loadingView="@layout/cu" app:msv_emptyView="@layout/b1" app:msv_errorView="@layout/b1" app:msv_viewState="db"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.meizu.net.search.ui.module.widget.NoBottomOverScrollLayout android:id="@id/hl" android:paddingLeft="@dimen/gj" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.meizu.net.search.ui.module.widget.KeyboardRecyclerView android:id="@id/hm" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </com.meizu.net.search.ui.module.widget.NoBottomOverScrollLayout>
+</com.meizu.net.search.ui.module.widget.MultiStateView>

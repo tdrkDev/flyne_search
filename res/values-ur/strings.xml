@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">ہوم پر نیویگیٹ کریں</string>
+    <string name="b">اوپر نیویگیٹ کریں</string>
+    <string name="c">مزید اختیارات</string>
+    <string name="d">ہو گیا</string>
+    <string name="e">سبھی دیکھیں</string>
+    <string name="f">ایک ایپ منتخب کریں</string>
+    <string name="g">آف</string>
+    <string name="h">آن</string>
+    <string name="i">تلاش کریں…</string>
+    <string name="j">استفسار صاف کریں</string>
+    <string name="k">استفسار تلاش کریں</string>
+    <string name="l">تلاش کریں</string>
+    <string name="m">استفسار جمع کرائیں</string>
+    <string name="n">صوتی تلاش</string>
+    <string name="o">اشتراک کریں مع</string>
+    <string name="p">%s کے ساتھ اشتراک کریں</string>
+    <string name="q">سکیڑیں</string>
+    <string name="r">تلاش</string>
+    <string name="s">‎999+‎</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">होमवर नेव्‍हिगेट करा</string>
+    <string name="b">वर नेव्‍हिगेट करा</string>
+    <string name="c">अधिक पर्याय</string>
+    <string name="d">पूर्ण झाले</string>
+    <string name="e">सर्व पहा</string>
+    <string name="f">एक अ‍ॅप निवडा</string>
+    <string name="g">बंद</string>
+    <string name="h">चालू</string>
+    <string name="i">शोधा…</string>
+    <string name="j">क्‍वेरी स्‍पष्‍ट करा</string>
+    <string name="k">शोध क्वेरी</string>
+    <string name="l">शोध</string>
+    <string name="m">क्वेरी सबमिट करा</string>
+    <string name="n">व्हॉइस शोध</string>
+    <string name="o">यांच्यासह सामायिक करा</string>
+    <string name="p">%s सह शेअर करा</string>
+    <string name="q">संक्षिप्त करा</string>
+    <string name="r">शोधा</string>
+    <string name="s">999+</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/vi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@android:id/icon" android:scaleType="centerInside" android:layout_marginEnd="@dimen/a3v" style="@style/vk" />
+    <LinearLayout android:id="@id/nk" style="@style/vl">
+        <TextView android:id="@android:id/title" style="@style/vm" />
+        <TextView android:id="@android:id/summary" style="@style/vj" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/a9g" />
+</LinearLayout>

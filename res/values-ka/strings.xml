@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">მთავარზე ნავიგაცია</string>
+    <string name="b">ზემოთ ნავიგაცია</string>
+    <string name="c">მეტი ვარიანტები</string>
+    <string name="d">დასრულდა</string>
+    <string name="e">ყველას ნახვა</string>
+    <string name="f">აპის არჩევა</string>
+    <string name="g">გამორთულია</string>
+    <string name="h">ჩართულია</string>
+    <string name="i">ძიება...</string>
+    <string name="j">მოთხოვნის გასუფთავება</string>
+    <string name="k">ძიების მოთხოვნა</string>
+    <string name="l">ძიება</string>
+    <string name="m">მოთხოვნის გადაგზავნა</string>
+    <string name="n">ხმოვანი ძიება</string>
+    <string name="o">გაზიარება:</string>
+    <string name="p">გაუზიარეთ %s-ს</string>
+    <string name="q">აკეცვა</string>
+    <string name="r">ძიება</string>
+    <string name="s">999+</string>
+</resources>

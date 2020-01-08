@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bb" parent="@style/yx" />
+    <style name="bd" parent="@style/yy" />
+    <style name="cd" parent="@style/z0" />
+    <style name="da" parent="@style/yz" />
+    <style name="yx" parent="@style/yt">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="yy" parent="@style/yu">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="yz" parent="@style/ez">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="z0" parent="@style/yo">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

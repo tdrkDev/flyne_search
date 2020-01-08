@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.net.search.separate.entrycard.SearchEntryView android:gravity="center_vertical" android:id="@id/w9" android:layout_width="fill_parent" android:layout_height="@dimen/a_5" android:layout_marginTop="@dimen/a_3" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/w_" android:background="@color/kb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a_n" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center" android:id="@id/wa" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/wb" android:background="@drawable/gj" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a2e" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/wc" android:layout_width="0.0dip" android:layout_height="@dimen/a_o" android:layout_marginLeft="@dimen/gs" android:layout_weight="1.0">
+        <View android:background="@drawable/g4" android:layout_width="fill_parent" android:layout_height="@dimen/a_o" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/wd" android:background="@drawable/lc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="@dimen/a_j" android:layout_marginEnd="@dimen/a_k" android:layout_alignParentStart="true" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/we" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/kf" android:layout_centerInParent="true" android:contentDescription="@string/gu" android:layout_marginStart="@dimen/a9z" android:layout_marginEnd="@dimen/a_0" android:layout_alignParentEnd="true" />
+        <com.meizu.net.search.ui.module.view.ImeEditText android:textSize="@dimen/a_p" android:textColor="@color/kd" android:textColorHint="@color/kc" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/wf" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/a_o" android:hint="@string/l9" android:maxLines="1" android:includeFontPadding="false" android:maxLength="100" android:layout_centerInParent="true" android:imeOptions="actionSearch" android:layout_toStartOf="@id/we" android:layout_toEndOf="@id/wd" style="@style/ly" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/wg" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.meizu.net.search.ui.module.widget.ClickTextview android:enabled="false" android:textSize="@dimen/a9y" android:textColor="@color/n5" android:gravity="center" android:id="@id/wh" android:layout_width="wrap_content" android:layout_height="@dimen/a9u" android:text="@string/ig" android:maxLines="1" android:layout_marginStart="@dimen/a9t" android:layout_marginEnd="@dimen/a9s" style="@style/ua" />
+    </LinearLayout>
+</com.meizu.net.search.separate.entrycard.SearchEntryView>

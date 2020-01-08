@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:common="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="23.0dip" android:layout_marginTop="21.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/dj" android:gravity="start" android:id="@id/o8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/a8" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/dh" android:gravity="center" android:id="@id/o9" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ad" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.meizu.common.widget.DatePicker android:layout_gravity="center_horizontal" android:id="@id/o_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:spinnersShown="true" android:calendarViewShown="false" common:mcInternalLayout="@layout/d6" common:mcVisibleRow="5" />
+</LinearLayout>

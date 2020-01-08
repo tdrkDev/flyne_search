@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Evə naviqasiya et</string>
+    <string name="b">Yuxarı get</string>
+    <string name="c">Digər variantlar</string>
+    <string name="d">Hazırdır</string>
+    <string name="e">Hamısına baxın</string>
+    <string name="f">Tətbiq seçin</string>
+    <string name="g">DEAKTİV</string>
+    <string name="h">AKTİV</string>
+    <string name="i">Axtarış...</string>
+    <string name="j">Sorğunu təmizlə</string>
+    <string name="k">Axtarış sorğusu</string>
+    <string name="l">Axtarış</string>
+    <string name="m">Sorğunu göndərin</string>
+    <string name="n">Səsli axtarış</string>
+    <string name="o">Bununla paylaşın</string>
+    <string name="p">%s ilə paylaşın</string>
+    <string name="q">Yığışdırın</string>
+    <string name="r">Axtarış</string>
+    <string name="s">999+</string>
+</resources>

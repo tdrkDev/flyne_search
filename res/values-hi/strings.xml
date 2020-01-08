@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">होम पेज पर जाएं</string>
+    <string name="b">ऊपर जाएं</string>
+    <string name="c">ज़्यादा विकल्प</string>
+    <string name="d">हो गया</string>
+    <string name="e">सभी देखें</string>
+    <string name="f">कोई एप्‍लिकेशन चुनें</string>
+    <string name="g">बंद</string>
+    <string name="h">चालू</string>
+    <string name="i">खोजा जा रहा है…</string>
+    <string name="j">क्‍वेरी साफ़ करें</string>
+    <string name="k">सर्च क्वेरी</string>
+    <string name="l">सर्च करें</string>
+    <string name="m">क्वेरी सबमिट करें</string>
+    <string name="n">आवाज़ सर्च</string>
+    <string name="o">इसके द्वारा साझा करें</string>
+    <string name="p">%s के साथ साझा करें</string>
+    <string name="q">छोटा करें</string>
+    <string name="r">सर्च</string>
+    <string name="s">999+</string>
+</resources>

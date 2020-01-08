@@ -1,0 +1,28 @@
+.class public interface abstract Lcom/meizu/advertise/api/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/meizu/advertise/api/c$a;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a()V
+.end method
+
+.method public abstract a(J)V
+.end method
+
+.method public abstract a(Ljava/lang/String;)V
+.end method
+
+.method public abstract b()V
+.end method
+
+.method public abstract c()V
+.end method
